@@ -1,0 +1,128 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+	font-weight: bold;
+	font-size: 24px;
+}
+.section {
+	min-height: 800px;
+}
+.section .container{
+	min-height: 800px;
+	position: relative;
+}
+.section.hero-section {
+	background: url(../img/bg-1.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.v-center-r{
+	position: relative;
+}
+.v-center{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+}
+
+.main-title {
+	color: #fff;
+}
+
+.main-title h1{
+	font-weight: bold;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+.main-title h5{
+	font-weight: 100;
+	font-size: 24px;
+}
+
+.navbar {
+	background: none;
+	border: 0;
+	padding: 0 0 80px 0;
+	background: rgba(0,0,0,1);
+	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: red;
+}
+
+.navbar>.container .navbar-brand {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}
+.btn {
+	border-radius: 2px;
+	padding: 10px 15px;
+}
+.btn-danger{
+	background-color: #e92121;
+	border: 0;
+}
+.btn-default {
+	background: none;
+	border: 2px solid #fff;
+	color: #fff;
+}
+.section-2{
+	min-height: 585px;
+}
+h2{
+	color:#464646;
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 150px 150px 0 0;
+	margin: 0;
+}
+p{
+	color: #b7b7b7;
+	font-weight: lighter;
+}
+.first-p{
+	padding: 100px 100px 10px 0;
+}
+.second-p{
+	padding: 10px 100px 0 0;
+}
+h3{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 100px 0 20px 0;
+}
+.third-p{
+	text-align: center;
+	padding-top: 10px;
+}
+.fourth-p{
+	text-align: center;
+}
+h5{
+	font-weight: bold;
+	font-size: 18px;
+}
+.media-box i{
+	font-size: 70px;
+	color: red;
+}
