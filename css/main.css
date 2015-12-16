@@ -22,6 +22,9 @@ body {
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
+.section.section-content .section-header {
+	padding-bottom: 100px;
+}
 .section.section-content h3{
 	text-align: center;
 	font-weight: bold;
@@ -104,17 +107,21 @@ p{
 	color: #b7b7b7;
 	font-weight: lighter;
 }
-
 .media-box {
 	padding-bottom: 15px;
 	min-height: 230px;
 }
-.media-box i{
+.media-box i {
 	font-size: 70px;
 	color: red;
 }
-.media-box h5{
+.media-box .media-box-info {
+	padding-top: 15px;
+}
+
+.media-box .media-box-info h5{
 	font-weight: bold;
 	font-size: 18px;
 }
+
 /*I did some changes*/
